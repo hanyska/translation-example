@@ -8,6 +8,8 @@
 /bazel-out
 
 /assets/appConfig.ts
+*/assets/appConfig.ts
+
 
 # dependencies
 /node_modules
