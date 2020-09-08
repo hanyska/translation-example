@@ -7,7 +7,7 @@
 # Only exists if Bazel was run
 /bazel-out
 
-/assets/appConfig.json
+/assets/appConfig.ts
 
 # dependencies
 /node_modules
