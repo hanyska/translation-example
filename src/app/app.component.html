@@ -3,7 +3,7 @@
   <p>{{'hello' | translate}}</p>
 
   <select #langSelect (change)="translate.use(langSelect.value)" aria-label="Language">
-    <option *ngFor="let lang of translate.getLangs()"
+    <option *ngFor="let lang of availableLanguage"
             [value]="lang"
             [selected]="lang === translate.currentLang">{{lang}}</option>
   </select>

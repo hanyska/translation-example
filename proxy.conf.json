@@ -1,0 +1,18 @@
+{
+  "/poeditor": {
+    "target": "https://api.poeditor.com/v2",
+    "secure": true,
+    "pathRewrite": {
+      "^/poeditor": ""
+    },
+    "changeOrigin": true
+  },
+  "/lingohub": {
+    "target": "https://api.lingohub.com/v1",
+    "secure": true,
+    "pathRewrite": {
+      "^/lingohub": ""
+    },
+    "changeOrigin": true
+  }
+}
