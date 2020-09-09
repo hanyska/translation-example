@@ -1,5 +1,6 @@
 {
   "hello": "Cześć!",
+  "language": "Język",
   "example": "Przykład",
   "niceToSeeYou": "Miło Cię widzieć {{name}}"
 }

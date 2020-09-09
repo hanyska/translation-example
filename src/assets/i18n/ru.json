@@ -1,5 +1,6 @@
 {
   "hello": "Здравствуй!",
+  "language": "",
   "example": "пример",
   "niceToSeeYou": "Рад вас видеть {{name}}"
 }

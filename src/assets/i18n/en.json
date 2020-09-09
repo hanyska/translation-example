@@ -1,5 +1,6 @@
 {
-    "hello": "Hello",
-    "example": "Example",
-    "niceToSeeYou": "Nice to see you {{name}}"
+  "hello": "Hello",
+  "language": "Language",
+  "example": "Example",
+  "niceToSeeYou": "Nice to see you {{name}}"
 }
