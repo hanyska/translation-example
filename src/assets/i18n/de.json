@@ -1,4 +1,5 @@
 {
   "hello": "Hallo!",
-  "example": "Beispiel"
+  "example": "Beispiel",
+  "niceToSeeYou": "{{name}} schön dich zu sehen"
 }

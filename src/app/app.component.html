@@ -2,6 +2,8 @@
   <h1>{{'example' | translate}}</h1>
   <p>{{'hello' | translate}}</p>
 
+  <p>{{'niceToSeeYou' | translate : {name: 'Wojciech'} }}</p>
+
   <select #langSelect (change)="translate.use(langSelect.value)" aria-label="Language">
     <option *ngFor="let lang of availableLanguage"
             [value]="lang"
