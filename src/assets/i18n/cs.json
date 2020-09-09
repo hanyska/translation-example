@@ -1,5 +1,5 @@
 {
-  "hello": "dfgdsfg",
-  "example": "sdgfsdfg",
-  "niceToSeeYou": "sdgfsdfgdsf ​{{name}}​"
+    "hello": "dfgdsfg",
+    "example": "sdgfsdfg",
+    "niceToSeeYou": "rád tě vidím {{name}}"
 }
