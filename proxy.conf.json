@@ -14,5 +14,13 @@
       "^/lingohub": ""
     },
     "changeOrigin": true
+  },
+  "/weblate": {
+    "target": "http://localhost/api",
+    "secure": true,
+    "pathRewrite": {
+      "^/weblate": ""
+    },
+    "changeOrigin": true
   }
 }

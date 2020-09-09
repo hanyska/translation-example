@@ -12,7 +12,9 @@ export class AppComponent {
 
   constructor(public translate: TranslateService,
               private langService: LanguageService) {
-    this.getLingohubLangs();
+    translate.setDefaultLang('en');
+    translate.use('en');
+    this.getWeblateLangs();
   }
 
   private getPoEditorLangs() {
@@ -32,4 +34,15 @@ export class AppComponent {
       console.log(err);
     });
   }
+
+  private getWeblateLangs() {
+    this.langService.getWeblateLangs().subscribe((data: any) => {
+      console.log(data);
+      this.availableLanguage = data.map(lang => lang.code);
+    }, err => {
+      console.log(err);
+    });
+  }
+
+
 }

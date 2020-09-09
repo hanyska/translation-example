@@ -10,6 +10,7 @@ export class LanguageService {
   private headers = new HttpHeaders().set('Content-Type', 'application/x-www-form-urlencoded');
   poeditorUrl = 'poeditor/languages/list';
   lingohubUrl = `lingohub/${appConfig.lingoHubUsername}/projects/${appConfig.lingoHubProjectName}?auth_token=${appConfig.lingoHubToken}`;
+  weblateUrl = `weblate/projects/${appConfig.weblateProjectName}/languages/`;
 
   constructor(private http: HttpClient) { }
 
@@ -30,7 +31,8 @@ export class LanguageService {
     return this.http.get(this.lingohubUrl);
   }
 
-
-
+  getWeblateLangs() {
+    return this.http.get(this.weblateUrl);
+  }
 
 }
